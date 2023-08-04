@@ -1,0 +1,64 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+h1{
+  color: var(--color-titelwebsit);
+  font-size: 2.4rem;
+}
+.login-box , .signup-box{
+  box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+}
+:root {
+  --color-website: #24353f;
+  --color-titelwebsit: #17a2b8;
+  --color-white:#fff;
+  --color-palceholder:#ffffffb3;
+  --color-green:#28a745;
+  --color-red:#dc3545;
+}
+html {
+  font-size: 16px;
+}
+body {
+  scroll-behavior: smooth;
+  background-color: var(--color-website);
+  font-family: sans-serif;
+}
+a{
+  text-decoration: none;
+  transition: 0.3s all;
+  color: white;
+}
+a:hover{
+  text-decoration: underline;
+  color: black;
+}
+input{
+  color:var(--color-white) !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+::placeholder{
+  color:var(--color-palceholder) !important ;
+}
+.shadowx {
+  box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+}
+.green{
+  color: var(--color-green) !important;
+}
+.red{
+  color: var(--color-red) !important;
+}
+.shadowx {
+  box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+}
+.welcome-box {
+  margin-top: 150px !important;
+}
+.navbar-brand{
+  cursor: pointer;
+  text-decoration: none !important; 
+}
